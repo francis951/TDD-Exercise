@@ -1,30 +1,30 @@
-"""
-A module for multiplication operations.
+# """
+# A module for multiplication operations.
 
-This module contains the Multiply class, which provides methods to multiply two numbers.
-"""
+# This module contains the Multiply class, which provides methods to multiply two numbers.
+# """
 
-class Multiply:
-    """
-    A class to perform multiplication operations.
+# class Multiply:
+#     """
+#     A class to perform multiplication operations.
 
-    This class provides methods to multiply two numbers.
+#     This class provides methods to multiply two numbers.
 
-    Attributes:
-        num1 (int): The first number.
-        num2 (int): The second number.
-    """
+#     Attributes:
+#         num1 (int): The first number.
+#         num2 (int): The second number.
+#     """
 
-    def __init__(self, num1, num2):
-        self.num1 = num1
-        self.num2 = num2
+#     def __init__(self, num1, num2):
+#         self.num1 = num1
+#         self.num2 = num2
 
-    def multiply_one(self):
-        """
-        Multiply two numbers and return the result.
+#     def multiply_one(self):
+#         """
+#         Multiply two numbers and return the result.
 
-        Returns:
-            int: The product of num1 and num2.
-        """
-        return self.num1 * self.num2
+#         Returns:
+#             int: The product of num1 and num2.
+#         """
+#         return self.num1 * self.num2
     
