@@ -20,7 +20,7 @@
 from multiply import multiply_one
 
 """
-the module to do the test
+the module to do the test on the multiplication
 """
 
 
