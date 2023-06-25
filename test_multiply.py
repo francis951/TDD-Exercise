@@ -23,6 +23,7 @@ from multiply import multiply_one
 the module to do the test
 """
 
+
 def test_multiply_one():
     """
     the check for the assert
@@ -33,5 +34,3 @@ def test_multiply_one():
     assert multiply_one(3, 3) == 9
     assert multiply_one(4, 4) == 16
     assert multiply_one(23, 45) == 1035
-
-    
