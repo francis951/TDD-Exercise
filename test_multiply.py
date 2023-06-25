@@ -24,4 +24,4 @@ the module to do the test
 """
 def test_multiply_one():
     assert multiply_one(1, 1) == 1
-    assert multiply_one(2, 2) == 16
+    assert multiply_one(2, 2) == 4
