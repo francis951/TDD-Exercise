@@ -17,3 +17,10 @@
 #     #Check for multiply of two
 #     answer = Multiply(2, 2)
 #     assert answer.multiply_one() == 4
+from multiply import multiply_one
+
+"""
+the module to do the test
+"""
+def test_multiply_one():
+    assert multiply_one(1, 1) == 1
