@@ -30,7 +30,33 @@ def test_multiply_one():
     """
 
     assert multiply_one(1, 1) == 1
+
+
+def test_multiply_two():
+    """
+    testing for product of two
+    """
+
     assert multiply_one(2, 2) == 4
+
+
+def test_multiply_three():
+    """
+    Look for product of 3
+    """
+
     assert multiply_one(3, 3) == 9
+
+
+def test_multiply_four():
+    """
+    looking for the product of four
+    """
     assert multiply_one(4, 4) == 16
-    assert multiply_one(23, 45) == 1035
+
+
+def test_multiply_last():
+    """
+    its a  fail pass test
+    """
+    assert multiply_one(23, 45) == 1035  # 23 * 45
